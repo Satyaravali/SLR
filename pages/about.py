@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 
 # Set page title
 st.set_page_config(
-    page_title="Sign Langusge is ....",
+    page_title="Sign Language is ....",
     initial_sidebar_state="expanded",
 )
 st.markdown(""" <style>
