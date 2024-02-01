@@ -6,3 +6,4 @@ PIL.Image
 tensorflow.keras.applications.mobilenet
 pandas
 streamlit
+
