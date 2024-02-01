@@ -40,7 +40,7 @@ if uploaded_file!=None:
 x = st.button("Predict")
 if x:
     with st.spinner("Thinking..."):
-        model = load_model('models/SignL (2).h5', compile = False)
+        model = load_model('models/SignLa2.h5', compile = False)
         image = Image.open(uploaded_file)
         size = (224, 224)
         image = ImageOps.fit(image, size)
